@@ -1,52 +1,97 @@
 /* début carousel */
+.spancarou{
+  width: 870px;
+  float: left;
+  min-height: 1px;
+  margin-left: 30px;
+  height:394px;
+}
+.spanpart{
+  width: 270px;
+  height: 401px;
+}
 
 #moncarou{
-    border:1px solid #c1c2c4;
-    background: none repeat scroll 0 0 #FFFFFF;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    padding: 8px;
-    border-radius: 4px;
+  border:1px solid #c1c2c4;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 4px;
 }
 
 #moncarou.carousel{
-    margin-bottom:0px;
+  margin-bottom:0px;
 }
 
-#moncarou a.carousel-control{
-    background-repeat: no-repeat;
-    background-color: transparent;
-    color: transparent;
-    border:0px;
-    top: 50%;
-    font-size:0px;
+#moncarou a.carousel-control {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  color: transparent;
+  border:0px;
+  top: 50%;
+  font-size:0px;
 }
 
-#moncarou a.left.carousel-control{
-    background-image: url(images/fleche-g.png);
+#moncarou.carousel-control-prev {
+    background-image: url(../images/carousel/fleche-g.png);
 }
 
-#moncarou a.right.carousel-control{
-    background-image: url(images/fleche-d.png);
+#moncarou.carousel-control-next {
+    background-image: url(../images/carousel/fleche-d.png);
 }
 
 #moncarou .carousel-caption {
-    position: absolute;
-    right: 0;
-    bottom: 30px;
-    left: 0;
-    padding: 0px;
-    background: none;
-    font-family: "Open Sans";
-    font-weight: normal;
-    color: #fff;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  padding: 0px;
+  background: none;
+  font-family: "Open Sans";
+  font-weight: normal;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
 }
 
 #moncarou .carousel-caption h4{
-    font-size: 30px;
-    background-color: rgba(0,0,0,0.6);
-    padding: 10px 10px;
-    width:auto;
+  font-size: 30px;
+  text-align: left;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px 10px;
+  width:auto;
+  margin: 0 0 5px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
 }
 
 /* fin carousel */
+
+/* Partenaires et réseaux social */
+
+#reseaux_sociaux a{
+  margin-right:10px;
+}
+
+#reseaux_sociaux a img{
+  color: #a7a7a7;
+  font-size:34px;
+}
+
+.vert_reference, h3.titre_thumbnail_page{
+  font-family: "Open Sans";
+  font-weight:normal;
+  font-size:27px;
+  color:#86ba3e;
+  text-shadow: 1px 1px 0px #ffffff;
+  margin:0px 0px 10px 0;
+}
+
+.motif{
+  background-image: url(../images/motif.jpg);
+  background-repeat:repeat-x;
+  height:9px;
+  margin-bottom:10px;
+}
+
+
+
+/* Partenaires et réseaux social */
