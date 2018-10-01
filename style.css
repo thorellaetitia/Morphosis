@@ -1,0 +1,88 @@
+
+.row {
+  margin-right: -15px;
+}
+
+.flag {
+  padding-left: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+  padding: 0;
+}
+
+downtown-toggle {
+  background-image: url(images/point.jpg);
+  background-repeat: repeat-y;
+}
+
+.d-inline-block.align-top {
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.d-inline-block.align-top-1 {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+header li a {
+  font-family: "open sans" arial;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 27px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #86ba3e;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 14px;
+}
+
+.dropdown-menu a {
+  font-family: arial;
+  text-transform: none;
+}
+
+a.downtown-item {
+  padding-top: 5px;
+}
+
+a.btn.btn-success.center-block {
+  margin-left: 30px;
+}
+
+.user {
+  font-size: 11px;
+  text-transform: none;
+}
+
+.btn {
+    background-color: #6b962f;; /* Blue background */
+    border: 1px black; /* Remove borders */
+    color: white; /* White text */
+    text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-family: arial;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px 16px; /* Some padding */
+    font-size: 11px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.btn:hover {
+    background-color: #739d37;
+}
+
+.icon-user {
+    color: white;
+}
+
+@media only screen and (max width: 990px) {
+  .italy {
+    margin-right: 15px;
+  }
+}
