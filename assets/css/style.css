@@ -1,5 +1,5 @@
 /*  Button Scroll Top */
-#myBtn {
+body #myBtn {
   background-image: url(../../images/topH.png);
   display: none;
   position: fixed;
@@ -12,7 +12,7 @@
   padding: 15px;
 }
 
-#myBtn:hover {
+body #myBtn:hover {
   background-image: url(../../images/top.png);
   display: none;
   position: fixed;
@@ -49,8 +49,10 @@ body .block1 {
   height: 413px;
   padding-left: 165px;
   padding-right: 165px;
+  margin-left: 1.5px;
 }
-body .card-deck .card h1 {
+body .card-deck .card .h2 {
+  border: inherit;
   font-family: Open Sans;
   font-weight: semibold;
   font-size: 33px;
@@ -64,7 +66,7 @@ body .card-deck .card p {
   font-weight: bold;
 }
 
-body .card-deck .card button {
+body .card-deck .card a {
   border: 1px solid #3D7A3D;
   font-size: 14px;
   width: 242px;
@@ -109,7 +111,7 @@ body .card-footer {
   margin-right: 5px;
   }
 
-  body .card-deck .card button {
+  body .card-deck .card a {
     width: inherit;
   }
 }
