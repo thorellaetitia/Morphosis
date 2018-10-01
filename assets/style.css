@@ -1,0 +1,52 @@
+/* début carousel */
+
+#moncarou{
+    border:1px solid #c1c2c4;
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#moncarou.carousel{
+    margin-bottom:0px;
+}
+
+#moncarou a.carousel-control{
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+    border:0px;
+    top: 50%;
+    font-size:0px;
+}
+
+#moncarou a.left.carousel-control{
+    background-image: url(images/fleche-g.png);
+}
+
+#moncarou a.right.carousel-control{
+    background-image: url(images/fleche-d.png);
+}
+
+#moncarou .carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    padding: 0px;
+    background: none;
+    font-family: "Open Sans";
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
+}
+
+#moncarou .carousel-caption h4{
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px 10px;
+    width:auto;
+}
+
+/* fin carousel */
