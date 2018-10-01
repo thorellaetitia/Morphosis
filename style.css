@@ -1,0 +1,37 @@
+.adress {
+font-size: 24px;
+color : #6b6b6d;
+}
+
+.tel {
+  font-size: 27px;
+  color: #86ba3e;
+  font-family: Open Sans-semibold
+}
+
+.titre {
+font-size: 27px;
+color: #86ba3e;
+}
+
+.tel {
+  text-align: center;
+}
+
+#le_bouton {
+     position: fixed;
+     top: 160px;
+     right: 10px;
+  }
+
+  .contacter {
+    font-size: 14px;
+    color: #005580;
+  }
+
+  .copyright {
+    font-size: 13px;
+    color: #161616;
+    font-family: Open Sans-semibold;
+    text-align: center;
+  }
