@@ -1,6 +1,6 @@
 .adress {
-font-size: 24px;
-color : #6b6b6d;
+  font-size: 24px;
+  color : #6b6b6d;
 }
 
 .tel {
@@ -10,28 +10,38 @@ color : #6b6b6d;
 }
 
 .titre {
-font-size: 27px;
-color: #86ba3e;
+  font-size: 27px;
+  color: #86ba3e;
 }
 
 .tel {
   text-align: center;
 }
 
-#le_bouton {
-     position: fixed;
-     top: 160px;
-     right: 10px;
-  }
+.contacter {
+  font-size: 14px;
+  color: #005580;
+}
 
-  .contacter {
-    font-size: 14px;
-    color: #005580;
-  }
+.copyright {
+  font-size: 13px;
+  color: #161616;
+  font-family: Open Sans-semibold;
+  text-align: center;
+}
 
-  .copyright {
-    font-size: 13px;
-    color: #161616;
-    font-family: Open Sans-semibold;
+.bordurelogo {
+  border: 0.5px solid #6b6b6d;
+  text-align: center;
+  padding-right: 15px;
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 990px) {
+  .adress {
     text-align: center;
   }
+}
