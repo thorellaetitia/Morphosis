@@ -1,6 +1,8 @@
 /* - - - - - - - - - - */
 /* Navbar              */
 /* - - - - - - - - - - */
+
+
 header .row {
   margin-right: -15px;
 }
@@ -34,12 +36,16 @@ header .d-inline-block.align-top-1 {
   margin-top: 30px;
 }
 
-header li a {
+header li a:not(.not) {
   font-family: "open sans" arial;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
   margin-top: 27px;
+  color: #6b6b6d;
+  background-image: url('../../images/point.jpg');
+  background-position: top left;
+  background-repeat: repeat-y;
 }
 
 header .navbar-light .navbar-nav .nav-link:hover {
@@ -93,14 +99,15 @@ header .icon {
 /* Carousel            */
 /* - - - - - - - - - - */
 /* début carousel */
-.spancarou{
-  width: 870px;
-  float: left;
-  min-height: 1px;
-  margin-left: 30px;
+.padding-container {
+  padding-left: 70px;
+}
+
+.spancarou {
   height:394px;
 }
-.spanpart{
+
+.spanpart {
   width: 270px;
   height: 401px;
   min-height: 1px;
