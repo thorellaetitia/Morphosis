@@ -1,8 +1,6 @@
 /* - - - - - - - - - - */
 /* Navbar              */
 /* - - - - - - - - - - */
-
-
 header .row {
   margin-right: -15px;
 }
@@ -21,11 +19,6 @@ header nav.navbar.navbar-expand-lg.navbar-light.bg-white {
   padding: 0;
 }
 
-header downtown-toggle {
-  background-image: url(images/point.jpg);
-  background-repeat: repeat-y;
-}
-
 header .d-inline-block.align-top {
   margin-top: 10px;
   margin-right: 25px;
@@ -33,15 +26,15 @@ header .d-inline-block.align-top {
 
 header .d-inline-block.align-top-1 {
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 33px;
 }
 
 header li a:not(.not) {
-  font-family: "open sans" arial;
+  font-family: "Open Sans" arial;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
-  margin-top: 27px;
+  margin-top: 20px;
   color: #6b6b6d;
   background-image: url('../../images/point.jpg');
   background-position: top left;
@@ -53,7 +46,8 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 
 header .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 14px;
+  padding-right: 11px;
+  padding-left: 11px;
 }
 
 header .dropdown-menu a {
@@ -61,8 +55,8 @@ header .dropdown-menu a {
   text-transform: none;
 }
 
-header a.downtown-item {
-  padding-top: 5px;
+header .dropdown-toggle:active {
+  background-color: grey;
 }
 
 header a.btn.btn-success.center-block {
@@ -99,12 +93,8 @@ header .icon {
 /* Carousel            */
 /* - - - - - - - - - - */
 /* début carousel */
-.padding-container {
-  padding-left: 70px;
-}
-
-.spancarou {
-  height:394px;
+.column {
+  padding-left: 0;
 }
 
 .spanpart {
@@ -272,6 +262,10 @@ border-bottom-color: #FFF;
   background-image: linear-gradient(#b3d385, #6b962f);
 }
 
+.btn-verts {
+  background-image: linear-gradient(#61c261, #51a351);
+}
+
 #flux_defilant{
   line-height: 20px;
   font-size: 14px;
@@ -314,7 +308,7 @@ body {
   border-top: 5px solid #c1c2c4;
 }
 
-body .sep {
+body .sep, body .sep1 {
   background-color: #d2d2d2;
   padding-left: 0;
   height: 1px;
@@ -332,13 +326,14 @@ body .bg-grey {
   min-height: 80px;
 }
 
-body .block1 {
+.block1 {
   width: 1200px;
   height: 413px;
   padding-left: 165px;
   padding-right: 165px;
   margin-left: 1.5px;
 }
+
 body .card-deck .card .h2 {
   border: inherit;
   font-family: Open Sans;
@@ -355,7 +350,8 @@ body .card-deck .card p {
 }
 
 body .card-deck .card a {
-  border: 1px solid #3D7A3D;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   font-size: 14px;
   width: 242px;
   height: 30px;
@@ -427,6 +423,14 @@ footer .bg-grey {
 /* - - - - - - - - - - */
 /* Media               */
 /* - - - - - - - - - - */
+@media only screen and (max-width: 575px) {
+  body .sep {
+    margin: inherit;
+    margin-bottom: 900px;
+  }
+}
+
+
 @media only screen and (max-width: 990px) {
   /* - - - - - - - - - - */
   /* Navbar              */
@@ -438,12 +442,14 @@ footer .bg-grey {
   /* - - - - - - - - - - */
   /* Carousel            */
   /* - - - - - - - - - - */
-
+  .column {
+    padding-left: 40px;;
+  }
 
   /* - - - - - - - - - - */
   /* Body                */
   /* - - - - - - - - - - */
-  body .block1 {
+.block1 {
     margin-left: 0px;
     padding-left: 0;
     padding-right: 0;
@@ -455,11 +461,16 @@ footer .bg-grey {
 
   .card-deck {
     margin-left: 5px;
-  margin-right: 5px;
+    margin-right: 5px;
   }
 
   body .card-deck .card a {
     width: inherit;
+  }
+
+.block1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* - - - - - - - - - - */
