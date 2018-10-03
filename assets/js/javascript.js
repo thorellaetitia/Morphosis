@@ -13,6 +13,16 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+function hideFunction() {
+  document.getElementById("hide").style.display = "none";
+  document.getElementById("arrow-right").style.display = "block";
+}
+
+function showFunction() {
+  document.getElementById("hide").style.display = "block";
+  document.getElementById("arrow-right").style.display = "none";
+}
+
 $('.carousel').carousel({
   interval: 2000
 })
