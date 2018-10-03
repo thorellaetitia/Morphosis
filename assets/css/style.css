@@ -419,18 +419,28 @@ body .btn {
 /* - - - - - - - - - - */
 /* Footer              */
 /* - - - - - - - - - - */
-footer .adress {
-  font-size: 24px;
-  color : #6b6b6d;
-}
-
-footer .tel {
-  font-size: 27px;
+footer {
   color: #86ba3e;
-  font-family: Open Sans-semibold;
-  text-align: center;
-
+  font-family: "Open Sans";
 }
+
+footer p{
+  font-size: 24px;
+}
+
+footer h1 {
+  font-size: 27px;
+}
+
+.contacter {
+  font-family: Arial;
+  font-size:14px;
+}
+
+
+
+
+
 
 footer .titre {
   font-size: 27px;
